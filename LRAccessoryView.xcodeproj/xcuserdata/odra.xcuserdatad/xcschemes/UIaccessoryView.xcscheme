@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2A4A67A31758EDBE00B2303A"
-               BuildableName = "UIaccessoryView.app"
-               BlueprintName = "UIaccessoryView"
-               ReferencedContainer = "container:UIaccessoryView.xcodeproj">
+               BuildableName = "LRAccessoryView.app"
+               BlueprintName = "LRAccessoryView"
+               ReferencedContainer = "container:LRAccessoryView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2A4A67A31758EDBE00B2303A"
-            BuildableName = "UIaccessoryView.app"
-            BlueprintName = "UIaccessoryView"
-            ReferencedContainer = "container:UIaccessoryView.xcodeproj">
+            BuildableName = "LRAccessoryView.app"
+            BlueprintName = "LRAccessoryView"
+            ReferencedContainer = "container:LRAccessoryView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2A4A67A31758EDBE00B2303A"
-            BuildableName = "UIaccessoryView.app"
-            BlueprintName = "UIaccessoryView"
-            ReferencedContainer = "container:UIaccessoryView.xcodeproj">
+            BuildableName = "LRAccessoryView.app"
+            BlueprintName = "LRAccessoryView"
+            ReferencedContainer = "container:LRAccessoryView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2A4A67A31758EDBE00B2303A"
-            BuildableName = "UIaccessoryView.app"
-            BlueprintName = "UIaccessoryView"
-            ReferencedContainer = "container:UIaccessoryView.xcodeproj">
+            BuildableName = "LRAccessoryView.app"
+            BlueprintName = "LRAccessoryView"
+            ReferencedContainer = "container:LRAccessoryView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

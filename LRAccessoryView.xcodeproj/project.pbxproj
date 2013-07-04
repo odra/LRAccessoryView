@@ -18,12 +18,12 @@
 		2A4A67BE1758EDBE00B2303A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4A67BD1758EDBE00B2303A /* Default-568h@2x.png */; };
 		2A4A67C71758EDDC00B2303A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A67C51758EDDC00B2303A /* RootViewController.m */; };
 		2A4A67C81758EDDC00B2303A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4A67C61758EDDC00B2303A /* RootViewController.xib */; };
-		2A4A67CC1758EEAF00B2303A /* UIAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A67CB1758EEAF00B2303A /* UIAccessoryView.m */; };
+		2A4A67CC1758EEAF00B2303A /* LRAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A67CB1758EEAF00B2303A /* LRAccessoryView.m */; };
 		2A4A67CE1758F02100B2303A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A67CD1758F02100B2303A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A4A67A41758EDBE00B2303A /* UIaccessoryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIaccessoryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4A67A41758EDBE00B2303A /* LRAccessoryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRAccessoryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4A67A71758EDBE00B2303A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2A4A67A91758EDBE00B2303A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2A4A67AB1758EDBE00B2303A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -39,8 +39,8 @@
 		2A4A67C41758EDDC00B2303A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		2A4A67C51758EDDC00B2303A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		2A4A67C61758EDDC00B2303A /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		2A4A67CA1758EEAF00B2303A /* UIAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAccessoryView.h; sourceTree = "<group>"; };
-		2A4A67CB1758EEAF00B2303A /* UIAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAccessoryView.m; sourceTree = "<group>"; };
+		2A4A67CA1758EEAF00B2303A /* LRAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRAccessoryView.h; sourceTree = "<group>"; };
+		2A4A67CB1758EEAF00B2303A /* LRAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRAccessoryView.m; sourceTree = "<group>"; };
 		2A4A67CD1758F02100B2303A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				2A4A67CD1758F02100B2303A /* QuartzCore.framework */,
-				2A4A67AD1758EDBE00B2303A /* UIaccessoryView */,
+				2A4A67AD1758EDBE00B2303A /* LRAccessoryView */,
 				2A4A67A61758EDBE00B2303A /* Frameworks */,
 				2A4A67A51758EDBE00B2303A /* Products */,
 			);
@@ -72,7 +72,7 @@
 		2A4A67A51758EDBE00B2303A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A4A67A41758EDBE00B2303A /* UIaccessoryView.app */,
+				2A4A67A41758EDBE00B2303A /* LRAccessoryView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,10 +87,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2A4A67AD1758EDBE00B2303A /* UIaccessoryView */ = {
+		2A4A67AD1758EDBE00B2303A /* LRAccessoryView */ = {
 			isa = PBXGroup;
 			children = (
-				2A4A67C91758EE8900B2303A /* UIaccessoryView */,
+				2A4A67C91758EE8900B2303A /* LRAccessoryView */,
 				2A4A67B61758EDBE00B2303A /* AppDelegate.h */,
 				2A4A67B71758EDBE00B2303A /* AppDelegate.m */,
 				2A4A67AE1758EDBE00B2303A /* Supporting Files */,
@@ -98,6 +98,7 @@
 				2A4A67C51758EDDC00B2303A /* RootViewController.m */,
 				2A4A67C61758EDDC00B2303A /* RootViewController.xib */,
 			);
+			name = LRAccessoryView;
 			path = UIaccessoryView;
 			sourceTree = "<group>";
 		};
@@ -115,21 +116,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2A4A67C91758EE8900B2303A /* UIaccessoryView */ = {
+		2A4A67C91758EE8900B2303A /* LRAccessoryView */ = {
 			isa = PBXGroup;
 			children = (
-				2A4A67CA1758EEAF00B2303A /* UIAccessoryView.h */,
-				2A4A67CB1758EEAF00B2303A /* UIAccessoryView.m */,
+				2A4A67CA1758EEAF00B2303A /* LRAccessoryView.h */,
+				2A4A67CB1758EEAF00B2303A /* LRAccessoryView.m */,
 			);
-			name = UIaccessoryView;
+			name = LRAccessoryView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A4A67A31758EDBE00B2303A /* UIaccessoryView */ = {
+		2A4A67A31758EDBE00B2303A /* LRAccessoryView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A4A67C11758EDBE00B2303A /* Build configuration list for PBXNativeTarget "UIaccessoryView" */;
+			buildConfigurationList = 2A4A67C11758EDBE00B2303A /* Build configuration list for PBXNativeTarget "LRAccessoryView" */;
 			buildPhases = (
 				2A4A67A01758EDBE00B2303A /* Sources */,
 				2A4A67A11758EDBE00B2303A /* Frameworks */,
@@ -139,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = UIaccessoryView;
+			name = LRAccessoryView;
 			productName = UIaccessoryView;
-			productReference = 2A4A67A41758EDBE00B2303A /* UIaccessoryView.app */;
+			productReference = 2A4A67A41758EDBE00B2303A /* LRAccessoryView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +154,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Leonardo Rossetti";
 			};
-			buildConfigurationList = 2A4A679F1758EDBE00B2303A /* Build configuration list for PBXProject "UIaccessoryView" */;
+			buildConfigurationList = 2A4A679F1758EDBE00B2303A /* Build configuration list for PBXProject "LRAccessoryView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A4A67A31758EDBE00B2303A /* UIaccessoryView */,
+				2A4A67A31758EDBE00B2303A /* LRAccessoryView */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +194,7 @@
 				2A4A67B41758EDBE00B2303A /* main.m in Sources */,
 				2A4A67B81758EDBE00B2303A /* AppDelegate.m in Sources */,
 				2A4A67C71758EDDC00B2303A /* RootViewController.m in Sources */,
-				2A4A67CC1758EEAF00B2303A /* UIAccessoryView.m in Sources */,
+				2A4A67CC1758EEAF00B2303A /* LRAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +291,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A4A679F1758EDBE00B2303A /* Build configuration list for PBXProject "UIaccessoryView" */ = {
+		2A4A679F1758EDBE00B2303A /* Build configuration list for PBXProject "LRAccessoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A4A67BF1758EDBE00B2303A /* Debug */,
@@ -299,13 +300,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A4A67C11758EDBE00B2303A /* Build configuration list for PBXNativeTarget "UIaccessoryView" */ = {
+		2A4A67C11758EDBE00B2303A /* Build configuration list for PBXNativeTarget "LRAccessoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A4A67C21758EDBE00B2303A /* Debug */,
 				2A4A67C31758EDBE00B2303A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
